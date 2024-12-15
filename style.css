@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 121px;
+    justify-content: center;
+    width: 100%;
+    background-image: url("./Group\ 5\ \(2\).png");
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.leftside {
+    width: 40%;
+    text-align: center;
+    margin-top: 6%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.leftside h1 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px; /* 110% */
+    letter-spacing: -0.521px;
+}
+
+.leftside span {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+}
+.freetry {
+    text-align: center;
+    width: 100%;
+    padding: 17px ;
+    border-radius: 10px;
+    background: #5e54a4;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+}
+.freetry span {
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 173.333% */
+    letter-spacing: 0.268px;
+}
+
+.rightside {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formstyle {
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+
+.formstyle button {
+    height: 56px;
+    border: none;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 173.333% */
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background: #38cc8b;
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+}
+
+.formstyle input{
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 15px 15px 15px 32px;
+}
+
+.errorinp{
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 15px 15px 15px 32px;
+    border: red;
+    color: red;
+}
+
+
+.formstyle p{
+    color: #BAB7D4;
+text-align: center;
+font-family: "Poppins", sans-serif;
+font-size: 11px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 236.364% */
+}
+
+
+@media only screen and (max-width: 600px){
+    .section1{
+        flex-direction: column;
+    }
+
+    .rightside{
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+    }
+
+    .leftside{
+        width: 100%;
+    }
+}
